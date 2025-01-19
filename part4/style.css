@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#left{
+   
+    width: 50%;
+    height: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAN3cGP9qT1gOz-lvA28APWiDTR1zy_-bYjA&s);
+    background-size: cover;
+    background-position: center;
+}
+
+#right{
+    background-color: antiquewhite;
+    width: 50%;
+    height: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlqpcyrKjidqt1utYQ_G8YAih3w3iBwRYdIg&s);
+    background-size: cover;
+    background-position: center;
+}
+
+#overlay1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.759);
+}
+
+#center1{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+#center1 h1{
+    font-size:50px;
+    font-weight: 100;    
+}
+
+#center1 p{
+    font-size:12px ;
+    margin-top: 10px;
+    margin-bottom:20px ;
+}
+
+#center1 button{
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fff;
+}
+
+
+
+#overlay2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.74)
+}
+
+#center2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#center2 h1{
+    font-size:50px;
+    font-weight: 100;    
+}
+
+#center2 p{
+    font-size:12px ;
+    margin-top: 10px;
+    margin-bottom:20px ;
+}
+
+#center2 button{
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid #000;
+}
